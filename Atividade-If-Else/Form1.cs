@@ -131,15 +131,17 @@ namespace Atividade_If_Else
                 int primeiroNumeroSoma = 0;
                 int segundoNumeroSoma = 1;
                 int resultado = 0;
+                int resultadoMensagem = 0;
                 string mensagemResultado = "";
                 for(int contador = 1; contador != numeroCasaFibo + 1; contador++)
                 {
+                    resultadoMensagem = resultado;
                     mensagemResultado += contador + ": " + resultado + "\n";
                     resultado = primeiroNumeroSoma + segundoNumeroSoma;
                     segundoNumeroSoma = primeiroNumeroSoma;
                     primeiroNumeroSoma = resultado;
                 }
-                MessageBox.Show(resultado + "\n\n" + mensagemResultado);
+                MessageBox.Show(resultadoMensagem + "\n\n" + mensagemResultado);
             }
             else
             {
