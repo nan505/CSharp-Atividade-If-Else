@@ -188,7 +188,7 @@
             this.btnFibo.Name = "btnFibo";
             this.btnFibo.Size = new System.Drawing.Size(246, 23);
             this.btnFibo.TabIndex = 14;
-            this.btnFibo.Text = "Calcular a casa na sequência de Fibonnaci";
+            this.btnFibo.Text = "Calcular a casa na sequência de Fibonacci";
             this.btnFibo.UseVisualStyleBackColor = true;
             this.btnFibo.Click += new System.EventHandler(this.btnFibo_Click);
             // 
