@@ -44,6 +44,21 @@
             this.btnVerificarDiasMes = new System.Windows.Forms.Button();
             this.btnFibo = new System.Windows.Forms.Button();
             this.tBoxFibo = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lbNomeAluno = new System.Windows.Forms.Label();
+            this.tBoxNomeAluno = new System.Windows.Forms.TextBox();
+            this.tBoxPrimeiraNota = new System.Windows.Forms.TextBox();
+            this.tBoxSegundaNota = new System.Windows.Forms.TextBox();
+            this.lbPrimeiraNota = new System.Windows.Forms.Label();
+            this.lbSegundaNota = new System.Windows.Forms.Label();
+            this.tBoxTerceiraNota = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lbTerceiraNota = new System.Windows.Forms.Label();
+            this.btnCalcularMedia = new System.Windows.Forms.Button();
+            this.lbSalario = new System.Windows.Forms.Label();
+            this.tBoxSalario = new System.Windows.Forms.TextBox();
+            this.btnCalcularAumentoSalarial = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbNumero
@@ -171,7 +186,7 @@
             // 
             // btnFibo
             // 
-            this.btnFibo.Location = new System.Drawing.Point(170, 320);
+            this.btnFibo.Location = new System.Drawing.Point(155, 410);
             this.btnFibo.Name = "btnFibo";
             this.btnFibo.Size = new System.Drawing.Size(246, 23);
             this.btnFibo.TabIndex = 14;
@@ -181,16 +196,165 @@
             // 
             // tBoxFibo
             // 
-            this.tBoxFibo.Location = new System.Drawing.Point(49, 323);
+            this.tBoxFibo.Location = new System.Drawing.Point(15, 412);
             this.tBoxFibo.Name = "tBoxFibo";
-            this.tBoxFibo.Size = new System.Drawing.Size(115, 20);
+            this.tBoxFibo.Size = new System.Drawing.Size(134, 20);
             this.tBoxFibo.TabIndex = 15;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(11, 386);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(136, 20);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "Insira um número:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "label2";
+            // 
+            // lbNomeAluno
+            // 
+            this.lbNomeAluno.AutoSize = true;
+            this.lbNomeAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNomeAluno.Location = new System.Drawing.Point(13, 251);
+            this.lbNomeAluno.Name = "lbNomeAluno";
+            this.lbNomeAluno.Size = new System.Drawing.Size(120, 20);
+            this.lbNomeAluno.TabIndex = 18;
+            this.lbNomeAluno.Text = "Nome do aluno:";
+            // 
+            // tBoxNomeAluno
+            // 
+            this.tBoxNomeAluno.Location = new System.Drawing.Point(17, 275);
+            this.tBoxNomeAluno.Name = "tBoxNomeAluno";
+            this.tBoxNomeAluno.Size = new System.Drawing.Size(147, 20);
+            this.tBoxNomeAluno.TabIndex = 19;
+            // 
+            // tBoxPrimeiraNota
+            // 
+            this.tBoxPrimeiraNota.Location = new System.Drawing.Point(171, 275);
+            this.tBoxPrimeiraNota.Name = "tBoxPrimeiraNota";
+            this.tBoxPrimeiraNota.Size = new System.Drawing.Size(89, 20);
+            this.tBoxPrimeiraNota.TabIndex = 20;
+            // 
+            // tBoxSegundaNota
+            // 
+            this.tBoxSegundaNota.Location = new System.Drawing.Point(266, 275);
+            this.tBoxSegundaNota.Name = "tBoxSegundaNota";
+            this.tBoxSegundaNota.Size = new System.Drawing.Size(86, 20);
+            this.tBoxSegundaNota.TabIndex = 21;
+            // 
+            // lbPrimeiraNota
+            // 
+            this.lbPrimeiraNota.AutoSize = true;
+            this.lbPrimeiraNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPrimeiraNota.Location = new System.Drawing.Point(167, 251);
+            this.lbPrimeiraNota.Name = "lbPrimeiraNota";
+            this.lbPrimeiraNota.Size = new System.Drawing.Size(62, 20);
+            this.lbPrimeiraNota.TabIndex = 22;
+            this.lbPrimeiraNota.Text = "1ª Nota";
+            // 
+            // lbSegundaNota
+            // 
+            this.lbSegundaNota.AutoSize = true;
+            this.lbSegundaNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSegundaNota.Location = new System.Drawing.Point(262, 251);
+            this.lbSegundaNota.Name = "lbSegundaNota";
+            this.lbSegundaNota.Size = new System.Drawing.Size(62, 20);
+            this.lbSegundaNota.TabIndex = 23;
+            this.lbSegundaNota.Text = "2ª Nota";
+            // 
+            // tBoxTerceiraNota
+            // 
+            this.tBoxTerceiraNota.Location = new System.Drawing.Point(358, 275);
+            this.tBoxTerceiraNota.Name = "tBoxTerceiraNota";
+            this.tBoxTerceiraNota.Size = new System.Drawing.Size(79, 20);
+            this.tBoxTerceiraNota.TabIndex = 24;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(0, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "label6";
+            // 
+            // lbTerceiraNota
+            // 
+            this.lbTerceiraNota.AutoSize = true;
+            this.lbTerceiraNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTerceiraNota.Location = new System.Drawing.Point(354, 251);
+            this.lbTerceiraNota.Name = "lbTerceiraNota";
+            this.lbTerceiraNota.Size = new System.Drawing.Size(62, 20);
+            this.lbTerceiraNota.TabIndex = 26;
+            this.lbTerceiraNota.Text = "3ª Nota";
+            // 
+            // btnCalcularMedia
+            // 
+            this.btnCalcularMedia.Location = new System.Drawing.Point(443, 273);
+            this.btnCalcularMedia.Name = "btnCalcularMedia";
+            this.btnCalcularMedia.Size = new System.Drawing.Size(91, 23);
+            this.btnCalcularMedia.TabIndex = 27;
+            this.btnCalcularMedia.Text = "Calcular média";
+            this.btnCalcularMedia.UseVisualStyleBackColor = true;
+            this.btnCalcularMedia.Click += new System.EventHandler(this.btnCalcularMedia_Click);
+            // 
+            // lbSalario
+            // 
+            this.lbSalario.AutoSize = true;
+            this.lbSalario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSalario.Location = new System.Drawing.Point(13, 311);
+            this.lbSalario.Name = "lbSalario";
+            this.lbSalario.Size = new System.Drawing.Size(131, 20);
+            this.lbSalario.TabIndex = 28;
+            this.lbSalario.Text = "Informe o salário:";
+            // 
+            // tBoxSalario
+            // 
+            this.tBoxSalario.Location = new System.Drawing.Point(15, 335);
+            this.tBoxSalario.Name = "tBoxSalario";
+            this.tBoxSalario.Size = new System.Drawing.Size(149, 20);
+            this.tBoxSalario.TabIndex = 29;
+            // 
+            // btnCalcularAumentoSalarial
+            // 
+            this.btnCalcularAumentoSalarial.Location = new System.Drawing.Point(170, 333);
+            this.btnCalcularAumentoSalarial.Name = "btnCalcularAumentoSalarial";
+            this.btnCalcularAumentoSalarial.Size = new System.Drawing.Size(142, 23);
+            this.btnCalcularAumentoSalarial.TabIndex = 30;
+            this.btnCalcularAumentoSalarial.Text = "Calcular aumento salarial";
+            this.btnCalcularAumentoSalarial.UseVisualStyleBackColor = true;
+            this.btnCalcularAumentoSalarial.Click += new System.EventHandler(this.btnCalcularAumentoSalarial_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCalcularAumentoSalarial);
+            this.Controls.Add(this.tBoxSalario);
+            this.Controls.Add(this.lbSalario);
+            this.Controls.Add(this.btnCalcularMedia);
+            this.Controls.Add(this.lbTerceiraNota);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.tBoxTerceiraNota);
+            this.Controls.Add(this.lbSegundaNota);
+            this.Controls.Add(this.lbPrimeiraNota);
+            this.Controls.Add(this.tBoxSegundaNota);
+            this.Controls.Add(this.tBoxPrimeiraNota);
+            this.Controls.Add(this.tBoxNomeAluno);
+            this.Controls.Add(this.lbNomeAluno);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.tBoxFibo);
             this.Controls.Add(this.btnFibo);
             this.Controls.Add(this.btnVerificarDiasMes);
@@ -232,6 +396,21 @@
         private System.Windows.Forms.Button btnVerificarDiasMes;
         private System.Windows.Forms.Button btnFibo;
         private System.Windows.Forms.TextBox tBoxFibo;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbNomeAluno;
+        private System.Windows.Forms.TextBox tBoxNomeAluno;
+        private System.Windows.Forms.TextBox tBoxPrimeiraNota;
+        private System.Windows.Forms.TextBox tBoxSegundaNota;
+        private System.Windows.Forms.Label lbPrimeiraNota;
+        private System.Windows.Forms.Label lbSegundaNota;
+        private System.Windows.Forms.TextBox tBoxTerceiraNota;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lbTerceiraNota;
+        private System.Windows.Forms.Button btnCalcularMedia;
+        private System.Windows.Forms.Label lbSalario;
+        private System.Windows.Forms.TextBox tBoxSalario;
+        private System.Windows.Forms.Button btnCalcularAumentoSalarial;
     }
 }
 
