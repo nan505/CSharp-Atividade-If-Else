@@ -45,7 +45,6 @@
             this.btnFibo = new System.Windows.Forms.Button();
             this.tBoxFibo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.lbNomeAluno = new System.Windows.Forms.Label();
             this.tBoxNomeAluno = new System.Windows.Forms.TextBox();
             this.tBoxPrimeiraNota = new System.Windows.Forms.TextBox();
@@ -53,7 +52,6 @@
             this.lbPrimeiraNota = new System.Windows.Forms.Label();
             this.lbSegundaNota = new System.Windows.Forms.Label();
             this.tBoxTerceiraNota = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.lbTerceiraNota = new System.Windows.Forms.Label();
             this.btnCalcularMedia = new System.Windows.Forms.Button();
             this.lbSalario = new System.Windows.Forms.Label();
@@ -212,15 +210,6 @@
             this.label1.Text = "Insira um número:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "label2";
-            // 
             // lbNomeAluno
             // 
             this.lbNomeAluno.AutoSize = true;
@@ -279,15 +268,6 @@
             this.tBoxTerceiraNota.Size = new System.Drawing.Size(79, 20);
             this.tBoxTerceiraNota.TabIndex = 24;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(0, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 25;
-            this.label6.Text = "label6";
-            // 
             // lbTerceiraNota
             // 
             this.lbTerceiraNota.AutoSize = true;
@@ -345,7 +325,6 @@
             this.Controls.Add(this.lbSalario);
             this.Controls.Add(this.btnCalcularMedia);
             this.Controls.Add(this.lbTerceiraNota);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.tBoxTerceiraNota);
             this.Controls.Add(this.lbSegundaNota);
             this.Controls.Add(this.lbPrimeiraNota);
@@ -353,7 +332,6 @@
             this.Controls.Add(this.tBoxPrimeiraNota);
             this.Controls.Add(this.tBoxNomeAluno);
             this.Controls.Add(this.lbNomeAluno);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tBoxFibo);
             this.Controls.Add(this.btnFibo);
@@ -397,7 +375,6 @@
         private System.Windows.Forms.Button btnFibo;
         private System.Windows.Forms.TextBox tBoxFibo;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbNomeAluno;
         private System.Windows.Forms.TextBox tBoxNomeAluno;
         private System.Windows.Forms.TextBox tBoxPrimeiraNota;
@@ -405,7 +382,6 @@
         private System.Windows.Forms.Label lbPrimeiraNota;
         private System.Windows.Forms.Label lbSegundaNota;
         private System.Windows.Forms.TextBox tBoxTerceiraNota;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label lbTerceiraNota;
         private System.Windows.Forms.Button btnCalcularMedia;
         private System.Windows.Forms.Label lbSalario;
