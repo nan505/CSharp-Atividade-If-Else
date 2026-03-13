@@ -1,0 +1,10 @@
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\bin\Debug\Atividade-If-Else.exe.config
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\bin\Debug\Atividade-If-Else.exe
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\bin\Debug\Atividade-If-Else.pdb
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.csproj.AssemblyReference.cache
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade_If_Else.Form1.resources
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade_If_Else.Properties.Resources.resources
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.csproj.GenerateResource.cache
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.csproj.CoreCompileInputs.cache
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.exe
+C:\Users\renan.srfranca\source\repos\Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.pdb
