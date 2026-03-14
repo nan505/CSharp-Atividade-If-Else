@@ -19,9 +19,9 @@ namespace Atividade_If_Else
 
         private void btnVerificarNumero_Click(object sender, EventArgs e)
         {
-            if(tBoxNumero.Text != string.Empty)
+            int numeroUsuario = 0;
+            if (int.TryParse(tBoxNumero.Text, out numeroUsuario))
             {
-                int numeroUsuario = int.Parse(tBoxNumero.Text);
                 if(numeroUsuario > 0)
                 {
                     MessageBox.Show("O número " + numeroUsuario + " é positivo!", "Mensagem de Aviso");
@@ -50,15 +50,15 @@ namespace Atividade_If_Else
                 && int.TryParse(tBoxTerceiroNumero.Text, out terceiroNumero)
                 )
             {
-                if(primeiroNumero > segundoNumero && primeiroNumero > terceiroNumero)
+                if(primeiroNumero > segundoNumero && primeiroNumero > terceiroNumero && segundoNumero != terceiroNumero)
                 {
                     MessageBox.Show("O maior dos três números informados é: " + primeiroNumero + ".", "Mensagem de Aviso");
                 }
-                else if(segundoNumero > primeiroNumero && segundoNumero > terceiroNumero)
+                else if(segundoNumero > primeiroNumero && segundoNumero > terceiroNumero && primeiroNumero != terceiroNumero)
                 {
                     MessageBox.Show("O maior dos três números informados é: " + segundoNumero + ".", "Mensagem de Aviso");
                 }
-                else if(terceiroNumero >  primeiroNumero && terceiroNumero > segundoNumero)
+                else if(terceiroNumero >  primeiroNumero && terceiroNumero > segundoNumero && primeiroNumero != segundoNumero)
                 {
                     MessageBox.Show("O maior dos três números informados é: " + terceiroNumero + ".", "Mensagem de Aviso");
                 }
