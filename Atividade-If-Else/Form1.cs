@@ -17,11 +17,20 @@ namespace Atividade_If_Else
             InitializeComponent();
         }
 
+        // Primeira atividade: Um script que verifica se um número fornecido pelo usuário é positivo, negativo ou zero.
+
         private void btnVerificarNumero_Click(object sender, EventArgs e)
         {
-            int numeroUsuario = 0;
+            int numeroUsuario = 0; 
+
+            // Validando se o texto da TextBox pode ser convertido em um valor numérico inteiro com int.TryParse()
+            // Caso seja possível, atribuir esse valor para a variável "numeroUsuario" com o "out".
+
             if (int.TryParse(tBoxNumero.Text, out numeroUsuario))
             {
+
+                // Validando se o número informado pelo usuário é maior que 0, ou se é menor que 0.
+
                 if(numeroUsuario > 0)
                 {
                     MessageBox.Show("O número " + numeroUsuario + " é positivo!", "Mensagem de Aviso");
@@ -30,26 +39,40 @@ namespace Atividade_If_Else
                 {
                     MessageBox.Show("O número " + numeroUsuario + " é negativo!", "Mensagem de Aviso");
                 }
+
+                // Senão, o número informado pelo usuário é exatamente 0.
+
                 else
                 {
                     MessageBox.Show("O número inserido é 0!", "Mensagem de Aviso");
                 }
             }
+
+            // Senão, exibir uma mensagem pedindo para o usuário informar um número válido.
+
             else
             {
                 MessageBox.Show("Insira um número válido.", "Mensagem de Aviso");
             }
         }
 
+        // Segunda atividade: Um script que faz a leitura de três números distintos e determina qual é o maior.
+
         private void btnTresNumeros_Click(object sender, EventArgs e)
         {
             int primeiroNumero = 0;
             int segundoNumero = 0;
             int terceiroNumero = 0;
-            if(int.TryParse(tBoxPrimeiroNumero.Text, out primeiroNumero) && int.TryParse(tBoxSegundoNumero.Text, out segundoNumero) 
+
+            // Validando se o os três textos das TextBoxes podem ser convertidos em valores numéricos inteiros com int.TryParse()
+
+            if (int.TryParse(tBoxPrimeiroNumero.Text, out primeiroNumero) && int.TryParse(tBoxSegundoNumero.Text, out segundoNumero) 
                 && int.TryParse(tBoxTerceiroNumero.Text, out terceiroNumero)
                 )
             {
+
+                // Validando qual dos três números é o maior e se todos possuem valores diferentes entre si.
+
                 if(primeiroNumero > segundoNumero && primeiroNumero > terceiroNumero && segundoNumero != terceiroNumero)
                 {
                     MessageBox.Show("O maior dos três números informados é: " + primeiroNumero + ".", "Mensagem de Aviso");
@@ -62,23 +85,44 @@ namespace Atividade_If_Else
                 {
                     MessageBox.Show("O maior dos três números informados é: " + terceiroNumero + ".", "Mensagem de Aviso");
                 }
+
+                // Senão, exibir uma mensagem pedindo para o usuário informar três números de valores distintos.
+
                 else
                 {
                     MessageBox.Show("Os três números informados precisam ser de diferentes valores.", "Mensagem de Aviso");
                 }
             }
+
+            // Senão, exibir uma mensagem pedindo para o usuário informar três números válidos e de valores distintos.
+
             else
             {
                 MessageBox.Show("Insira três números válidos e de diferentes valores.");
             }
         }
 
+        // Terceira atividade: Um programa que verifica se a letra fornecida pelo usuário é uma vogal ou uma consoante.
+
         private void btnVerificarLetra_Click(object sender, EventArgs e)
         {
+
+            // Booleano para verificar se o caractere informado pelo usuário é uma letra com char.IsLetter()
+            // Convertendo o texto da TextBox em um caractere com char.Parse()
+
             bool inseriuCaractere = char.IsLetter(char.Parse(tBoxLetra.Text));
+
+            // Validando se o usuário inseriu um caractere, e se a TextBox não está vazia.
+
             if(inseriuCaractere == true && tBoxLetra.Text != string.Empty)
             {
+
+                // Convertendo o caractere informado para minúsculo com char.ToLower()
+
                 char caractereInserido = char.ToLower(char.Parse(tBoxLetra.Text));
+
+                // Validando se o caractere minúsculo corresponde a pelo menos uma das cinco vogais.
+
                 if(caractereInserido == 'a' || caractereInserido == 'e' || caractereInserido == 'i' || caractereInserido == 'o'
                     || caractereInserido == 'u')
                 {
