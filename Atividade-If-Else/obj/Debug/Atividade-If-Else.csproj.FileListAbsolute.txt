@@ -28,3 +28,13 @@ C:\Users\renan.srfranca\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\
 C:\Users\renan.srfranca\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.csproj.CoreCompileInputs.cache
 C:\Users\renan.srfranca\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.exe
 C:\Users\renan.srfranca\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.pdb
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\bin\Debug\Atividade-If-Else.exe.config
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\bin\Debug\Atividade-If-Else.exe
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\bin\Debug\Atividade-If-Else.pdb
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.csproj.AssemblyReference.cache
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade_If_Else.Form1.resources
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade_If_Else.Properties.Resources.resources
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.csproj.GenerateResource.cache
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.csproj.CoreCompileInputs.cache
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.exe
+C:\Users\thece\source\repos\CSharp-Atividade-If-Else\Atividade-If-Else\obj\Debug\Atividade-If-Else.pdb
